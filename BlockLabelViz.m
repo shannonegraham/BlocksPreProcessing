@@ -142,7 +142,7 @@ function [S, b, st] = BlockLabelViz(s, b, st)
             y=[S.lat1(cs) S.lat2(cs)];
             %keyboard
             plot(x,y,'LineWidth',3)
-            pause(0.02)
+            pause(0.001)
             hold on
             %%%%%
         end

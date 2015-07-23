@@ -1,6 +1,6 @@
 function VizualizeBlockClosure(segmentFile,blockFile,stationFile)
-% blocks preprocessing tool to check and see if all blocks are closed and
-% have an interior point
+% blocks preprocessing tool to vizualize the block closing and segment
+% marching
 % provide segment file, block file and station file in that order
 
 fprintf('Parsing segment, block, and station files...')
