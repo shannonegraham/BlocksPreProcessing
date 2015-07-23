@@ -1,4 +1,4 @@
-function [S, b, st] = BlockLabelUtil(s, b, st)
+function [S, b, st] = BlockLabelViz(s, b, st)
 % Modified BLockLabel for the blocks preprocessing
     % Split any prime meridian-crossing segments
     split = segmeridian(s);
