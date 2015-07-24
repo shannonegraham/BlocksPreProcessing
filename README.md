@@ -18,3 +18,12 @@ taiwan_blocks_ching_redo_edit3.segment- example segment file (small model for ju
 test.block - example block file for the above segment file - has one block missing an interior point 
 test_horiz_vert.segment - test segment file for showing how the horizontal/vertical checker works 
 
+# Global model files for testing:
+Global_rmplates6_Japan_WUS_baja_all_subd_Tibet_NZ_Taiwan_3_tongaPNG.segment
+Global_RMplates6_japan_WUS_baja2_tibet_NZ4_taiwan_3_Tonga_PNG.block
+
+# command for global model segment vizualization:
+VizualizeBlockClosure('Global_rmplates6_Japan_WUS_baja_all_subd_Tibet_NZ_Taiwan_3_tongaPNG.segment','Global_RMplates6_japan_WUS_baja2_tibet_NZ4_taiwan_3_Tonga_PNG.block','All_in_Kreemer_GPS_NA_trouble4_off_RF_Clean.sta.data')
+
+# command for testing CheckBlockInteriorPoints:
+CheckBlockInteriorPoints('taiwan_blocks_ching_redo_edit3.segment','test.block','All_in_Kreemer_GPS_NA_trouble4_off_RF_Clean.sta.data')
