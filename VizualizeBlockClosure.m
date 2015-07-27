@@ -1,4 +1,4 @@
-function VizualizeBlockClosure(segmentFile,blockFile,stationFile)
+function VizualizeBlockClosure_bjm(segmentFile,blockFile,stationFile)
 % blocks preprocessing tool to vizualize the block closing and segment
 % marching
 % provide segment file, block file and station file in that order
@@ -11,5 +11,5 @@ fprintf('done.\n')
 
 % edit this section
 fprintf('Labeling blocks...')
-[Segment, Block, Station] = BlockLabelViz(Segment, Block, Station);
+[Segment, Block, Station] = BlockLabelViz_bjm(Segment, Block, Station);
 fprintf('done.\n')
