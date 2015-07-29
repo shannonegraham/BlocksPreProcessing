@@ -11,5 +11,5 @@ fprintf('done.\n')
 
 % edit this section
 fprintf('Labeling blocks...')
-[Segment, Block, Station] = BlockLabelViz_bjm(Segment, Block, Station);
+[Segment, Block, Station] = BlockLabelViz(Segment, Block, Station);
 fprintf('done.\n')

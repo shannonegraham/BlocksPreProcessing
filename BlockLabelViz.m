@@ -1,4 +1,4 @@
-function [S, b, st] = BlockLabelViz_bjm(s, b, st)
+function [S, b, st] = BlockLabelViz(s, b, st)
  
 % Split any prime meridian-crossing segments
 split = segmeridian(s);
